@@ -93,26 +93,27 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 4;
 
+static const char* darkerblue = "#282a26";
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	[0] = "#000000", // 000000
+	[0] = "#282a36", // 000000
 	[1] = "#a54242", // ff5555
-	[2] = "#a54242", // 50fa7b
+	[2] = "#50fa7b", // 50fa7b
 	[3] = "#f1fa8c", // f1fa8c
-	[4] = "#bd93f9", // bd93f9
-	[5] = "#a54242", // a54242
-	[6] = "#a54242", // a54242
+	[4] = "#ff5555", // ff5555
+	[5] = "#ff5555", // ff5555
+	[6] = "#ff5555", // ff5555
 	[7] = "#bbbbbb", // bbbbbb
 
 	/* 8 bright colors */
 	[8] = "#44475a", // 44475a
 	[9] = "#a54242", // ff5555
-	[10] = "#a54242", //50fa7b
+	[10] = "#50fa7b", // 50fa7b
 	[11] = "#f1fa8c", // f1fa8c
-	[12] = "#bd93f9", // bd93f9
-	[13] = "#a54242", // a54242
-	[14] = "#a54242", // a54242
+	[12] = "#ff5555", // ff5555
+	[13] = "#ff5555", // ff5555 
+	[14] = "#ff5555", // ff5555
 	[15] = "#ffffff", // ffffff
 
 
